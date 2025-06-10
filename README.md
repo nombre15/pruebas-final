@@ -20,6 +20,8 @@ cd target
 java -jar spring-petclinic-3.5.0-SNAPSHOT.jar --server.port=8081
 ```
 
+### LINUX
+
 ```bash
 git clone https://github.com/spring-projects/spring-petclinic.git
 cd pruebas-final
