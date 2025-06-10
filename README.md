@@ -26,8 +26,10 @@ java -jar spring-petclinic-3.5.0-SNAPSHOT.jar --server.port=8081
 git clone https://github.com/spring-projects/spring-petclinic.git
 cd pruebas-final
 ./mvnw package
-java -jar target/*.jar
+java -jar target/*.jar --server.port=8081
 ```
+
+**Después de ejecutar el ultimo comando, ir al buscador y abrir localhost:8081**
 
 (On Windows, or if your shell doesn't expand the glob, you might need to specify the JAR file name explicitly on the command line at the end there.)
 
